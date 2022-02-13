@@ -55,3 +55,14 @@ h1, h2 {
     border-right: 1px solid lightgray;
  }
  
+ #centeredH2:before, #centeredH2:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    
+    vertical-align: middle;
+    border-bottom: 1px solid;
+}
+
+#centeredH2:after {
+    margin: 0 -55% 0 .5em;
